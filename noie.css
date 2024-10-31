@@ -1,0 +1,44 @@
+#infobar {
+	font: message-box;
+	color: InfoText;
+	background: infobackground url('img/close.gif') no-repeat scroll 99% 4px;
+	border-bottom: .16em outset;	
+	width: 100%;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#infobar a, #infobar a:link, #infobar a:visited, #infobar a:active {
+  text-decoration: none;
+	cursor: default;
+	padding: .45em .3em .45em 2em;
+	display: block;
+	color: #000000;
+	outline: none;	
+}
+
+#infobar a#txt {
+  background: transparent url('img/warning.gif') no-repeat fixed .3em .3em;
+  margin-right: 30px;
+}
+
+#infobar a#txt:hover {
+	color: HighlightText;
+	background: Highlight url('img/warning2.gif') no-repeat fixed .3em .3em;
+}
+
+#infobar a#hidenoie {
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-indent: 0px;
+	line-height: 100px;
+	overflow: hidden;
+	height:12px;
+	width: 20px;
+}
